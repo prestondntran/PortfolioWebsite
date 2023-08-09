@@ -2,7 +2,7 @@ import React from "react";
 import spotify from './images/spotifyapp.png';
 import drawing from './images/drawingapp.png';
 
-export default function About() {
+export default function Projects() {
   return (
     <section class="projects" id="projects">
       <h2 class="projects-title">Recent Projects</h2>

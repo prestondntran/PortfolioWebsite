@@ -132,7 +132,7 @@ nav ul li {
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
+  width: 30rem;
   padding: 1rem;
 }
 
@@ -149,6 +149,46 @@ nav ul li {
 }
 
 .project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Certificates Section */
+.certificates {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.certificate-pic {
+  width: 90%;
+  height: 85%;
+}
+
+.certificates-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.certificate-container {
+  text-align: center;
+  width: 40rem;
+  padding: 1rem;
+}
+
+.certificate-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.certificate-card {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);

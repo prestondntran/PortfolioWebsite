@@ -3,7 +3,7 @@ import instagram from './images/Instagram_logo_2016.svg.webp';
 import linkedIn from './images/640px-LinkedIn_logo_initials.png';
 import github from './images/github-logo.png';
 
-export default function About() {
+export default function Contact() {
   return (
     <section class="contact" id="contact">
       <h2>Contact Me</h2>
