@@ -20,7 +20,7 @@ export default function Projects() {
               Get song recommendations from Spotify based on specific
               artists, songs, and genres.
             </p>
-            <a href="https://github.com/prestondntran/SpotifyApp" target="_blank" class="project-link">Check it Out</a>
+            <a href="https://spotifyrec-799393763aca.herokuapp.com/" target="_blank" class="project-link">Check it Out</a>
           </div>
           <div class="project-container project-card">
             <img
