@@ -56,7 +56,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 3.5rem;
   background-color: var(--primary-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -273,3 +273,48 @@ nav ul li {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+
+  .bio {
+    width: 30rem;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 21rem;
+  }
+
+  .certificate-container {
+    width: 25rem;
+  }
+
+  .contact-form-container {
+    max-width: 23rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .bio {
+    width: 18rem;
+  }
+
+  .project-container {
+    width: 18rem;
+  }
+
+  .certificate-container {
+    width: 20rem;
+  }
+
+  .contact-form-container {
+    max-width: 19rem;
+  }
+} 
