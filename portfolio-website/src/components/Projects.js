@@ -1,4 +1,5 @@
 import React from "react";
+import typer from './images/speedtyper.png';
 import spotify from './images/spotifyapp.png';
 import drawing from './images/drawingapp.png';
 
@@ -8,6 +9,19 @@ export default function Projects() {
       <h2 class="projects-title">Recent Projects</h2>
       <center>
         <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src={typer}
+              alt="speed-typer"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Typing Game and Analytics</h3>
+            <p class="project-details">
+              Test your typing proficiency and view your past scores.
+            </p>
+            <a href="https://speedtyper.vercel.app/" target="_blank" class="project-link">Check it Out</a>
+          </div>
           <div class="project-container project-card">
             <img
               src={spotify}
