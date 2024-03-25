@@ -1,4 +1,5 @@
 import React from "react";
+import string from './images/StringGame.png';
 import typer from './images/speedtyper.png';
 import spotify from './images/spotifyapp.png';
 import drawing from './images/drawingapp.png';
@@ -9,6 +10,20 @@ export default function Projects() {
       <h2 class="projects-title">Recent Projects</h2>
       <center>
         <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src={string}
+              alt="string"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">String</h3>
+            <p class="project-details">
+              Solve complex time-travel puzzles in this doodle-style 
+              problem solving game.
+            </p>
+            <a href="https://kafeimasked.itch.io/string" target="_blank" class="project-link">Check it Out</a>
+          </div>
           <div class="project-container project-card">
             <img
               src={typer}
